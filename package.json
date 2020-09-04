@@ -24,7 +24,7 @@
     "express-session": "^1.15.5",
     "faker": "^4.1.0",
     "helmet": "^3.8.1",
-    "helmet-csp": "^2.5.1",
+    "helmet-csp": "^2.9.1",
     "lodash": "^4.17.4",
     "morgan": "~1.8.1",
     "node-exiftool": "2.2.0",
