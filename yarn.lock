@@ -432,6 +432,10 @@ boom@2.x.x:
   dependencies:
     hoek "2.x.x"
 
+bowser@2.5.4:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/bowser/-/bowser-2.5.4.tgz#850fccfebde92165440279b5ab19be3c7f05cfe1"
+
 boxen@^1.0.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/boxen/-/boxen-1.2.1.tgz#0f11e7fe344edb9397977fc13ede7f64d956481d"
@@ -598,6 +602,10 @@ content-security-policy-builder@1.1.0:
   resolved "https://registry.yarnpkg.com/content-security-policy-builder/-/content-security-policy-builder-1.1.0.tgz#d91f1b076236c119850c7dee9924bf55e05772b3"
   dependencies:
     dashify "^0.2.0"
+
+content-security-policy-builder@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/content-security-policy-builder/-/content-security-policy-builder-2.1.0.tgz#0a2364d769a3d7014eec79ff7699804deb8cfcbb"
 
 content-type@~1.0.2:
   version "1.0.2"
@@ -1221,7 +1229,7 @@ hawk@~3.1.3:
     hoek "2.x.x"
     sntp "1.x.x"
 
-helmet-csp@2.5.1, helmet-csp@^2.5.1:
+helmet-csp@2.5.1:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/helmet-csp/-/helmet-csp-2.5.1.tgz#5f3deec8f922fa7e074dbc3987c168a50573c36d"
   dependencies:
@@ -1230,6 +1238,15 @@ helmet-csp@2.5.1, helmet-csp@^2.5.1:
     dasherize "2.0.0"
     lodash.reduce "4.6.0"
     platform "1.3.4"
+
+helmet-csp@^2.9.1:
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/helmet-csp/-/helmet-csp-2.9.1.tgz#39939a84ca3657ee3cba96f296169ccab02f97d5"
+  dependencies:
+    bowser "2.5.4"
+    camelize "1.0.0"
+    content-security-policy-builder "2.1.0"
+    dasherize "2.0.0"
 
 helmet@^3.8.1:
   version "3.8.1"
